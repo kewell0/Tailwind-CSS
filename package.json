@@ -1,0 +1,16 @@
+{
+  "name": "tailwind-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tailwindcss": "npx tailwindcss -i ./src/input.css -o ./build/css/style.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css": "^3.0.0",
+    "tailwind": "^4.0.0"
+  }
+}
