@@ -523,9 +523,9 @@ video {
   }
 }
 
-@media (min-width: 480px) {
+@media (min-width: 375px) {
   .container {
-    max-width: 480px;
+    max-width: 375px;
   }
 }
 
@@ -541,20 +541,12 @@ video {
   }
 }
 
-.fixed {
-  position: fixed;
-}
-
 .absolute {
   position: absolute;
 }
 
 .relative {
   position: relative;
-}
-
-.sticky {
-  position: sticky;
 }
 
 .left-6 {
@@ -964,7 +956,7 @@ body {
   outline-offset: 2px;
 }
 
-@media (min-width: 480px) {
+@media (min-width: 375px) {
   .sm\:w-auto {
     width: auto;
   }
